@@ -1,16 +1,20 @@
 import React from "react";
 import Head from "next/head";
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+export const metadata = {
+  title: "TyrderManiac",
+  description: "Personal Portfolio Website developed by Akash Kumar",
+}
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    /*<div className="min-h-screen bg-gray-900 text-white">
       {/* Head Section for SEO */}
-      <Head>
-        <title>Akash Kumar</title>
-        <meta name="description" content="Akash Kumar's personal portfolio website" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      //<Head>
+        //<title>Akash Kumar</title>
+        //<meta name="description" content="Akash Kumar's personal portfolio website" />
+        //<link rel="icon" href="/favicon.ico" />
+      //</Head>
 
       {/* Page Wrapper */}
       <div className="flex flex-col items-center">
