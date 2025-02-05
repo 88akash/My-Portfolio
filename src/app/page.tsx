@@ -7,7 +7,7 @@ export default function Home() {
     <div className="min-h-screen bg-gray-900 text-white">
       {/* Head Section for SEO */}
       <Head>
-        <title>Akash Kumar | Portfolio</title>
+        <title>Akash Kumar</title>
         <meta name="description" content="Akash Kumar's personal portfolio website" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
